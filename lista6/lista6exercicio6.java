@@ -76,6 +76,10 @@ public class lista6exercicio6 {
                 }
                 }
                 System.out.println(soma);
+            break;
+            default:
+            System.out.println("Opção inválida!");
+            break;
         }
     }
 }

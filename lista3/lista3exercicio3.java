@@ -18,8 +18,8 @@ public class lista3exercicio3 {
         System.out.println("Informe sua senha: ");
         senha = scanner.nextLine();
 
-        boolean ulogin = (Objects.equals(usuario, "admin"));
-        boolean usenha = (Objects.equals(senha, "123senha"));
+        boolean ulogin = (usuario.equals("admin"));
+        boolean usenha = (senha.equals("123senha"));
         if (ulogin == true && usenha == true){
             System.out.println("Login realizado com sucesso!");
             break;

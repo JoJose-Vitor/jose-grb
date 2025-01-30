@@ -27,8 +27,8 @@ public class lista3exercicio1 {
 
     }
 
-    double medias = nsalario / 3;
-    double mediaf = nfilho / 3;
+    double medias = nsalario / 20;
+    double mediaf = nfilho / 20;
     System.out.println( "Media salarial = " + medias + " R$\r\n" + //
                 "Media do numero de filhos por habitante = " + mediaf + "\r\n" + //
                 "Maior salario = " + msalario + " R$");

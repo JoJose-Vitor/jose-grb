@@ -1,5 +1,4 @@
 package lista3;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class lista3exercicio3 {

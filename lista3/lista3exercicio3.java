@@ -18,22 +18,22 @@ public class lista3exercicio3 {
         System.out.println("Informe sua senha: ");
         senha = scanner.nextLine();
 
-        Boolean ulogin = (Objects.equals(usuario, "admin"));
+        boolean ulogin = (Objects.equals(usuario, "admin"));
         boolean usenha = (Objects.equals(senha, "123senha"));
         if (ulogin == true && usenha == true){
             System.out.println("Login realizado com sucesso!");
             break;
         }else{
+            
+            if (i == 3){
+                System.out.println("Sua conta foi bloqueada");
+        break;
+            }
+
             System.out.println("Credenciais inválidas... tente novamente:");
 
             i++;
-
         }
-        }while(i <= 3);
-            
-        if (i == 3){
-            System.out.println("Sua conta foi bloqueada");
-        
-    }
+        }while (i <= 3);
 }
 }

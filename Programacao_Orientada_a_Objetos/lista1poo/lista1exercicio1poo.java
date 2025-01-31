@@ -2,7 +2,7 @@ package Programacao_Orientada_a_Objetos;
 
 import java.util.Scanner;
 
-public class lista1poo {
+public class lista1exercicio1poo {
     
     public static int[] lista = new int[10];
 

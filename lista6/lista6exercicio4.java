@@ -14,7 +14,7 @@ public class lista6exercicio4 {
 
         for(i = 0; i < 3; i++){
             for(j = 0; j < 3; j++){
-                System.out.println("Informe o valor do vetor posicao linha " + (i + 1) + " e coluna " + (j + 1));
+                System.out.println("Informe o valor da matriz posicao linha " + (i + 1) + " e coluna " + (j + 1));
                 tabuleiro[i][j] = scanner.nextInt();
             }
         }

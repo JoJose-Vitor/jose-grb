@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class lista6exercicio3 {
     public static void main(String[] args){
-        int soma;
+        int soma = 0;
         int i;
         int j;
         Scanner scanner = new Scanner(System.in);
@@ -13,9 +13,11 @@ public class lista6exercicio3 {
             for(j = 0; j < 3; j++){
                 System.out.println("Informe o valor da matriz posicao linha " + (i + 1) + " e coluna " + (j + 1));
                 tabuleiro[i][j] = scanner.nextInt();
+                if (i == j){
+                    soma = soma + tabuleiro[i][j];
+                }
             }
         }
-        soma = tabuleiro[0][0] + tabuleiro [1][1] + tabuleiro[2][2];
         System.out.println(soma);
 }
 }

@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class lista6exercicio4 {
     public static void main(String[] args){
-        int soma;
         int i;
         int j;
         int t;

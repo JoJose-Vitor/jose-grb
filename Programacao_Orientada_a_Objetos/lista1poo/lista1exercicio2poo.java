@@ -1,8 +1,8 @@
-package Programacao_Orientada_a_Objetos;
+package Programacao_Orientada_a_Objetos.lista1poo;
 
 import java.util.Scanner;
 
-public class lista2poo {
+public class lista1exercicio2poo {
     public static boolean[][] mapa = new boolean[4][4];
 
     public static boolean[][] limpamapa(boolean[][] mapa){

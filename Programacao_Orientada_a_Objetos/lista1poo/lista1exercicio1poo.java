@@ -1,4 +1,4 @@
-package Programacao_Orientada_a_Objetos;
+package Programacao_Orientada_a_Objetos.lista1poo;
 
 import java.util.Scanner;
 

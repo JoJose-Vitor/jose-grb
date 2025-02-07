@@ -5,8 +5,10 @@ public class Usuario {
     private int id;
     private String endereco;
     private int idade;
+    double PI;
 
-    public void setNome(String nome){
+       
+        public void setNome(String nome){
         this.nome = nome;
     }
 }

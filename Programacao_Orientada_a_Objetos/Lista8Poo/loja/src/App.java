@@ -18,7 +18,7 @@ public class App {
         }
 
         try {
-            Produto produto3 = new Produto("Melancia", 0);
+            Produto produto3 = new Produto("Melancia", 0.0);
             
         } catch (Exception e) {
 

@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class App {
 
     private static Scanner scanner = new Scanner(System.in);
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Hello World");
         System.out.println("Digite o 1º  numero: ");
         int numero1 = pedirNumero();

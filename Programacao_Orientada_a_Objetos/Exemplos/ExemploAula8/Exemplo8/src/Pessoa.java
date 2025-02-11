@@ -4,7 +4,7 @@ public class Pessoa {
     private String nome;
     private int idade;
 
-    public Pessoa(String nome) throws NomeInvalidoException{
+    public Pessoa(String nome) throws NomeInvalidoException {
         setNome(nome);
     }
 
@@ -13,7 +13,7 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public void setNome(String nome) throws NomeInvalidoException{
+    public void setNome(String nome) throws NomeInvalidoException {
         if(!nome.isBlank()){
             this.nome = nome;
         }else{

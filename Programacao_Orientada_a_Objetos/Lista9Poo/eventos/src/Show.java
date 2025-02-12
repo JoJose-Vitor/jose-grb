@@ -13,7 +13,7 @@ public class Show extends Evento{
     public void exibirInformacoes() {
         super.exibirInformacoes();
         System.out.print("Artistas:");
-        for (int i = 0; i < artistas.size(); i++){
+        for (int i = 0; i < this.artistas.size(); i++){
             System.out.print(" " + this.artistas.get(i));            
         }
         System.out.println("\r");
